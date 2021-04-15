@@ -1,0 +1,106 @@
+Processor	: AArch64 Processor rev 14 (aarch64)
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+Hardware	: Qualcomm Technologies, Inc SM8150
+MNN benchmark
+Forward type: **CPU** thread=4** precision=2
+--------> Benchmarking... loop = 10, warmup = 3
+[ - ] temp.Alexnet_2.mnn          max =   52.449ms  min =   49.731ms  avg =   50.941ms
+[ - ] temp.Squeezenet_2.mnn       max =   30.749ms  min =   29.795ms  avg =   30.134ms
+[ - ] temp.Squeezenet_16.mnn      max =  253.048ms  min =  244.364ms  avg =  248.742ms
+[ - ] temp.GoogLenet_16.mnn       max =  205.350ms  min =  201.669ms  avg =  203.274ms
+[ - ] temp.Alexnet_4.mnn          max =   76.751ms  min =   74.307ms  avg =   75.297ms
+[ - ] temp.GoogLenet_1.mnn        max =   14.744ms  min =   12.914ms  avg =   13.624ms
+[ - ] temp.Mobilenet_8.mnn        max =  153.861ms  min =  131.570ms  avg =  136.150ms
+[ - ] temp.Squeezenet_4.mnn       max =   63.778ms  min =   61.320ms  avg =   62.467ms
+[ - ] temp.GoogLenet_8.mnn        max =  102.928ms  min =   99.895ms  avg =  101.234ms
+[ - ] temp.Mobilenet_4.mnn        max =   65.530ms  min =   62.960ms  avg =   64.006ms
+[ - ] temp.Mobilenet_16.mnn       max =  281.720ms  min =  274.012ms  avg =  278.494ms
+[ - ] temp.Lenet_2.mnn            max =    1.146ms  min =    0.563ms  avg =    0.698ms
+[ - ] temp.GoogLenet_32.mnn       max =  447.489ms  min =  439.314ms  avg =  444.455ms
+[ - ] temp.Alexnet_1.mnn          max =   18.482ms  min =   17.553ms  avg =   18.038ms
+[ - ] temp.Lenet_1.mnn            max =    0.290ms  min =    0.272ms  avg =    0.279ms
+[ - ] temp.GoogLenet_4.mnn        max =   50.975ms  min =   48.640ms  avg =   49.476ms
+[ - ] temp.Lenet_32.mnn           max =    4.691ms  min =    4.090ms  avg =    4.396ms
+[ - ] temp.Alexnet_16.mnn         max =  255.575ms  min =  251.303ms  avg =  253.366ms
+[ - ] temp.Alexnet_8.mnn          max =  139.252ms  min =  134.320ms  avg =  136.591ms
+[ - ] temp.Lenet_8.mnn            max =    2.068ms  min =    1.514ms  avg =    1.637ms
+[ - ] temp.Squeezenet_1.mnn       max =   14.034ms  min =   11.583ms  avg =   12.833ms
+[ - ] temp.GoogLenet_2.mnn        max =   26.388ms  min =   24.957ms  avg =   25.551ms
+[ - ] temp.Lenet_4.mnn            max =    0.884ms  min =    0.731ms  avg =    0.812ms
+[ - ] temp.Mobilenet_2.mnn        max =   32.457ms  min =   31.128ms  avg =   31.599ms
+[ - ] temp.Squeezenet_8.mnn       max =  130.506ms  min =  125.757ms  avg =  127.939ms
+[ - ] temp.Mobilenet_1.mnn        max =   13.286ms  min =   11.913ms  avg =   12.538ms
+[ - ] temp.Alexnet_32.mnn         max =  494.566ms  min =  485.747ms  avg =  490.463ms
+[ - ] temp.Squeezenet_32.mnn      max =  508.726ms  min =  504.037ms  avg =  506.044ms
+[ - ] temp.Lenet_16.mnn           max =    2.539ms  min =    2.258ms  avg =    2.397ms

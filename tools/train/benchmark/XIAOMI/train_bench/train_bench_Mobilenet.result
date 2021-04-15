@@ -1,0 +1,357 @@
+Processor	: AArch64 Processor rev 14 (aarch64)
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+Hardware	: Qualcomm Technologies, Inc SM8150
+Build Flags: ABI=arm64-v8a OpenCL=OFF
+Error for open mobilenetv2.snapshot.mnn
+Error parameters, empty or parameter size not match 
+train iteration: 0 loss: 7.16681 lr: 1e-05
+train iteration: 10 loss: 7.15278 lr: 1e-05
+train iteration: 20 loss: 7.50095 lr: 1e-05
+Training latency on MobilenetV2Train is : 403.159515 ms (batchsize is 1)
+Open mobilenetv2.snapshot.mnn error
+test iteration: 10 acc: 0/10 = 0%
+test iteration: 20 acc: 0/20 = 0%
+test iteration: 30 acc: 0/30 = 0%
+test iteration: 40 acc: 0/40 = 0%
+test iteration: 50 acc: 0/50 = 0%
+test iteration: 60 acc: 0/60 = 0%
+test iteration: 70 acc: 0/70 = 0%
+test iteration: 80 acc: 0/80 = 0%
+test iteration: 90 acc: 0/90 = 0%
+test iteration: 100 acc: 0/100 = 0%
+test iteration: 110 acc: 0/110 = 0%
+test iteration: 120 acc: 0/120 = 0%
+test iteration: 130 acc: 0/130 = 0%
+test iteration: 140 acc: 0/140 = 0%
+test iteration: 150 acc: 0/150 = 0%
+test iteration: 160 acc: 0/160 = 0%
+test iteration: 170 acc: 0/170 = 0%
+test iteration: 180 acc: 0/180 = 0%
+test iteration: 190 acc: 0/190 = 0%
+test iteration: 200 acc: 0/200 = 0%
+test iteration: 210 acc: 0/210 = 0%
+test iteration: 220 acc: 0/220 = 0%
+test iteration: 230 acc: 0/230 = 0%
+test iteration: 240 acc: 0/240 = 0%
+test iteration: 250 acc: 0/250 = 0%
+test iteration: 260 acc: 0/260 = 0%
+test iteration: 270 acc: 0/270 = 0%
+test iteration: 280 acc: 0/280 = 0%
+test iteration: 290 acc: 0/290 = 0%
+test iteration: 300 acc: 0/300 = 0%
+test iteration: 310 acc: 0/310 = 0%
+test iteration: 320 acc: 0/320 = 0%
+test iteration: 330 acc: 0/330 = 0%
+test iteration: 340 acc: 0/340 = 0%
+test iteration: 350 acc: 0/350 = 0%
+test iteration: 360 acc: 0/360 = 0%
+test iteration: 370 acc: 0/370 = 0%
+test iteration: 380 acc: 0/380 = 0%
+test iteration: 390 acc: 0/390 = 0%
+test iteration: 400 acc: 0/400 = 0%
+test iteration: 410 acc: 0/410 = 0%
+test iteration: 420 acc: 0/420 = 0%
+test iteration: 430 acc: 0/430 = 0%
+test iteration: 440 acc: 0/440 = 0%
+test iteration: 450 acc: 0/450 = 0%
+test iteration: 460 acc: 0/460 = 0%
+test iteration: 470 acc: 0/470 = 0%
+test iteration: 480 acc: 0/480 = 0%
+test iteration: 490 acc: 0/490 = 0%
+test iteration: 500 acc: 0/500 = 0%
+test iteration: 510 acc: 0/510 = 0%
+test iteration: 520 acc: 0/520 = 0%
+test iteration: 530 acc: 0/530 = 0%
+test iteration: 540 acc: 0/540 = 0%
+test iteration: 550 acc: 0/550 = 0%
+test iteration: 560 acc: 0/560 = 0%
+test iteration: 570 acc: 0/570 = 0%
+test iteration: 580 acc: 0/580 = 0%
+test iteration: 590 acc: 0/590 = 0%
+test iteration: 600 acc: 0/600 = 0%
+test iteration: 610 acc: 0/610 = 0%
+test iteration: 620 acc: 0/620 = 0%
+test iteration: 630 acc: 0/630 = 0%
+test iteration: 640 acc: 0/640 = 0%
+test iteration: 650 acc: 0/650 = 0%
+test iteration: 660 acc: 0/660 = 0%
+test iteration: 670 acc: 0/670 = 0%
+test iteration: 680 acc: 0/680 = 0%
+test iteration: 690 acc: 0/690 = 0%
+test iteration: 700 acc: 0/700 = 0%
+test iteration: 710 acc: 0/710 = 0%
+test iteration: 720 acc: 0/720 = 0%
+test iteration: 730 acc: 0/730 = 0%
+test iteration: 740 acc: 0/740 = 0%
+test iteration: 750 acc: 0/750 = 0%
+test iteration: 760 acc: 0/760 = 0%
+test iteration: 770 acc: 0/770 = 0%
+test iteration: 780 acc: 0/780 = 0%
+test iteration: 790 acc: 0/790 = 0%
+test iteration: 800 acc: 0/800 = 0%
+test iteration: 810 acc: 0/810 = 0%
+test iteration: 820 acc: 0/820 = 0%
+test iteration: 830 acc: 0/830 = 0%
+test iteration: 840 acc: 0/840 = 0%
+test iteration: 850 acc: 0/850 = 0%
+test iteration: 860 acc: 0/860 = 0%
+test iteration: 870 acc: 0/870 = 0%
+test iteration: 880 acc: 0/880 = 0%
+test iteration: 890 acc: 0/890 = 0%
+test iteration: 900 acc: 0/900 = 0%
+test iteration: 910 acc: 0/910 = 0%
+test iteration: 920 acc: 0/920 = 0%
+test iteration: 930 acc: 0/930 = 0%
+test iteration: 940 acc: 0/940 = 0%
+test iteration: 950 acc: 0/950 = 0%
+test iteration: 960 acc: 0/960 = 0%
+test iteration: 970 acc: 0/970 = 0%
+test iteration: 980 acc: 0/980 = 0%
+test iteration: 990 acc: 0/990 = 0%
+test iteration: 1000 acc: 0/1000 = 0%
+test iteration: 1010 acc: 0/1010 = 0%
+test iteration: 1020 acc: 0/1020 = 0%
+test iteration: 1030 acc: 0/1030 = 0%
+test iteration: 1040 acc: 0/1040 = 0%
+test iteration: 1050 acc: 0/1050 = 0%
+test iteration: 1060 acc: 0/1060 = 0%
+test iteration: 1070 acc: 0/1070 = 0%
+test iteration: 1080 acc: 0/1080 = 0%
+test iteration: 1090 acc: 0/1090 = 0%
+test iteration: 1100 acc: 0/1100 = 0%
+test iteration: 1110 acc: 0/1110 = 0%
+test iteration: 1120 acc: 0/1120 = 0%
+test iteration: 1130 acc: 0/1130 = 0%
+test iteration: 1140 acc: 0/1140 = 0%
+test iteration: 1150 acc: 0/1150 = 0%
+test iteration: 1160 acc: 0/1160 = 0%
+test iteration: 1170 acc: 0/1170 = 0%
+test iteration: 1180 acc: 0/1180 = 0%
+test iteration: 1190 acc: 0/1190 = 0%
+test iteration: 1200 acc: 0/1200 = 0%
+Inferring latency on MobilenetV2Train is : 47.851952 ms (batchsize is 1)
+train, 155, cost time: 93977.781250 ms
+modeName is /data/local/tmp/temp.Mobilenet_1.mnn
+Error for open mobilenetv2.snapshot.mnn
+Error parameters, empty or parameter size not match 
+train iteration: 0 loss: 7.09807 lr: 1e-05
+train iteration: 10 loss: 7.39999 lr: 1e-05
+train iteration: 20 loss: 6.61193 lr: 1e-05
+Training latency on MobilenetV2Train is : 671.411011 ms (batchsize is 2)
+Open mobilenetv2.snapshot.mnn error
+test iteration: 10 acc: 0/20 = 0%
+test iteration: 20 acc: 0/40 = 0%
+test iteration: 30 acc: 0/60 = 0%
+test iteration: 40 acc: 0/80 = 0%
+test iteration: 50 acc: 0/100 = 0%
+test iteration: 60 acc: 0/120 = 0%
+test iteration: 70 acc: 0/140 = 0%
+test iteration: 80 acc: 0/160 = 0%
+test iteration: 90 acc: 0/180 = 0%
+test iteration: 100 acc: 0/200 = 0%
+test iteration: 110 acc: 0/220 = 0%
+test iteration: 120 acc: 0/240 = 0%
+test iteration: 130 acc: 0/260 = 0%
+test iteration: 140 acc: 0/280 = 0%
+test iteration: 150 acc: 0/300 = 0%
+test iteration: 160 acc: 0/320 = 0%
+test iteration: 170 acc: 0/340 = 0%
+test iteration: 180 acc: 0/360 = 0%
+test iteration: 190 acc: 0/380 = 0%
+test iteration: 200 acc: 0/400 = 0%
+test iteration: 210 acc: 0/420 = 0%
+test iteration: 220 acc: 0/440 = 0%
+test iteration: 230 acc: 0/460 = 0%
+test iteration: 240 acc: 0/480 = 0%
+test iteration: 250 acc: 0/500 = 0%
+test iteration: 260 acc: 0/520 = 0%
+test iteration: 270 acc: 0/540 = 0%
+test iteration: 280 acc: 0/560 = 0%
+test iteration: 290 acc: 0/580 = 0%
+test iteration: 300 acc: 0/600 = 0%
+test iteration: 310 acc: 0/620 = 0%
+test iteration: 320 acc: 0/640 = 0%
+test iteration: 330 acc: 0/660 = 0%
+test iteration: 340 acc: 0/680 = 0%
+test iteration: 350 acc: 0/700 = 0%
+test iteration: 360 acc: 0/720 = 0%
+test iteration: 370 acc: 0/740 = 0%
+test iteration: 380 acc: 0/760 = 0%
+test iteration: 390 acc: 0/780 = 0%
+test iteration: 400 acc: 0/800 = 0%
+test iteration: 410 acc: 0/820 = 0%
+test iteration: 420 acc: 0/840 = 0%
+test iteration: 430 acc: 0/860 = 0%
+test iteration: 440 acc: 0/880 = 0%
+test iteration: 450 acc: 0/900 = 0%
+test iteration: 460 acc: 0/920 = 0%
+test iteration: 470 acc: 0/940 = 0%
+test iteration: 480 acc: 0/960 = 0%
+test iteration: 490 acc: 0/980 = 0%
+test iteration: 500 acc: 0/1000 = 0%
+test iteration: 510 acc: 0/1020 = 0%
+test iteration: 520 acc: 0/1040 = 0%
+test iteration: 530 acc: 0/1060 = 0%
+test iteration: 540 acc: 0/1080 = 0%
+test iteration: 550 acc: 0/1100 = 0%
+test iteration: 560 acc: 0/1120 = 0%
+test iteration: 570 acc: 0/1140 = 0%
+test iteration: 580 acc: 0/1160 = 0%
+test iteration: 590 acc: 0/1180 = 0%
+test iteration: 600 acc: 0/1200 = 0%
+Inferring latency on MobilenetV2Train is : 75.451401 ms (batchsize is 2)
+train, 155, cost time: 66484.523438 ms
+modeName is /data/local/tmp/temp.Mobilenet_2.mnn
+Error for open mobilenetv2.snapshot.mnn
+Error parameters, empty or parameter size not match 
+train iteration: 0 loss: 7.2823 lr: 1e-05
+train iteration: 10 loss: 6.56438 lr: 1e-05
+train iteration: 20 loss: 7.18056 lr: 1e-05
+Training latency on MobilenetV2Train is : 1139.294312 ms (batchsize is 4)
+Open mobilenetv2.snapshot.mnn error
+test iteration: 10 acc: 0/40 = 0%
+test iteration: 20 acc: 0/80 = 0%
+test iteration: 30 acc: 0/120 = 0%
+test iteration: 40 acc: 0/160 = 0%
+test iteration: 50 acc: 0/200 = 0%
+test iteration: 60 acc: 0/240 = 0%
+test iteration: 70 acc: 0/280 = 0%
+test iteration: 80 acc: 0/320 = 0%
+test iteration: 90 acc: 0/360 = 0%
+test iteration: 100 acc: 0/400 = 0%
+test iteration: 110 acc: 0/440 = 0%
+test iteration: 120 acc: 0/480 = 0%
+test iteration: 130 acc: 0/520 = 0%
+test iteration: 140 acc: 0/560 = 0%
+test iteration: 150 acc: 0/600 = 0%
+test iteration: 160 acc: 0/640 = 0%
+test iteration: 170 acc: 0/680 = 0%
+test iteration: 180 acc: 0/720 = 0%
+test iteration: 190 acc: 0/760 = 0%
+test iteration: 200 acc: 0/800 = 0%
+test iteration: 210 acc: 0/840 = 0%
+test iteration: 220 acc: 0/880 = 0%
+test iteration: 230 acc: 0/920 = 0%
+test iteration: 240 acc: 0/960 = 0%
+test iteration: 250 acc: 0/1000 = 0%
+test iteration: 260 acc: 0/1040 = 0%
+test iteration: 270 acc: 0/1080 = 0%
+test iteration: 280 acc: 0/1120 = 0%
+test iteration: 290 acc: 0/1160 = 0%
+test iteration: 300 acc: 0/1200 = 0%
+Inferring latency on MobilenetV2Train is : 67.859901 ms (batchsize is 4)
+train, 155, cost time: 35207.273438 ms
+modeName is /data/local/tmp/temp.Mobilenet_4.mnn
+Error for open mobilenetv2.snapshot.mnn
+Error parameters, empty or parameter size not match 
+train iteration: 0 loss: 7.29082 lr: 1e-05
+train iteration: 10 loss: 7.21215 lr: 1e-05
+train iteration: 20 loss: 7.0076 lr: 1e-05
+Training latency on MobilenetV2Train is : 2248.813965 ms (batchsize is 8)
+Open mobilenetv2.snapshot.mnn error
+test iteration: 10 acc: 0/80 = 0%
+test iteration: 20 acc: 0/160 = 0%
+test iteration: 30 acc: 0/240 = 0%
+test iteration: 40 acc: 0/320 = 0%
+test iteration: 50 acc: 0/400 = 0%
+test iteration: 60 acc: 0/480 = 0%
+test iteration: 70 acc: 0/560 = 0%
+test iteration: 80 acc: 0/640 = 0%
+test iteration: 90 acc: 0/720 = 0%
+test iteration: 100 acc: 0/800 = 0%
+test iteration: 110 acc: 0/880 = 0%
+test iteration: 120 acc: 0/960 = 0%
+test iteration: 130 acc: 0/1040 = 0%
+test iteration: 140 acc: 0/1120 = 0%
+test iteration: 150 acc: 0/1200 = 0%
+Inferring latency on MobilenetV2Train is : 136.461639 ms (batchsize is 8)
+train, 155, cost time: 31293.681641 ms
+modeName is /data/local/tmp/temp.Mobilenet_8.mnn
+Error for open mobilenetv2.snapshot.mnn
+Error parameters, empty or parameter size not match 
+train iteration: 0 loss: 6.94402 lr: 1e-05
+train iteration: 10 loss: 7.02167 lr: 1e-05
+train iteration: 20 loss: 7.19414 lr: 1e-05
+Training latency on MobilenetV2Train is : 4525.242188 ms (batchsize is 16)
+Open mobilenetv2.snapshot.mnn error
+test iteration: 10 acc: 0/160 = 0%
+test iteration: 20 acc: 0/320 = 0%
+test iteration: 30 acc: 0/480 = 0%
+test iteration: 40 acc: 0/640 = 0%
+test iteration: 50 acc: 0/800 = 0%
+test iteration: 60 acc: 0/960 = 0%
+test iteration: 70 acc: 0/1120 = 0%
+Inferring latency on MobilenetV2Train is : 287.795929 ms (batchsize is 16)
+train, 155, cost time: 31683.099609 ms
+modeName is /data/local/tmp/temp.Mobilenet_16.mnn

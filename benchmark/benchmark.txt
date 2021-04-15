@@ -1,0 +1,92 @@
+Processor	: AArch64 Processor rev 4 (aarch64)
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x801
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x801
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x801
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x801
+CPU revision	: 4
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x800
+CPU revision	: 1
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x800
+CPU revision	: 1
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x800
+CPU revision	: 1
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x800
+CPU revision	: 1
+
+Hardware	: Qualcomm Technologies, Inc MSM8998
+
+Build Flags: ABI=arm64-v8a OpenMP=ON Vulkan=ON OpenCL=ON
+MNN benchmark
+Forward type: **CPU** thread=4** precision=2
+--------> Benchmarking... loop = 10, warmup = 5
+[ - ] resnet-v2-50.mnn            max =  143.631ms  min =  143.270ms  avg =  143.457ms
+[ - ] MobileNetV2_224.mnn         max =   16.983ms  min =   16.796ms  avg =   16.908ms
+[ - ] mobilenet-v1-1.0.mnn        max =   27.138ms  min =   26.848ms  avg =   26.979ms
+[ - ] SqueezeNetV1.0.mnn          max =   34.585ms  min =   32.326ms  avg =   32.673ms
+[ - ] inception-v3.mnn            max =  210.341ms  min =  209.803ms  avg =  210.112ms
+MNN benchmark
+Forward type: **Vulkan** thread=4** precision=2
+--------> Benchmarking... loop = 10, warmup = 5
+[ - ] resnet-v2-50.mnn            max =   71.874ms  min =   70.993ms  avg =   71.491ms
+[ - ] MobileNetV2_224.mnn         max =   20.335ms  min =   13.186ms  avg =   15.753ms
+[ - ] mobilenet-v1-1.0.mnn        max =   23.270ms  min =   15.191ms  avg =   17.690ms
+[ - ] SqueezeNetV1.0.mnn          max =   24.278ms  min =   19.374ms  avg =   20.179ms
+[ - ] inception-v3.mnn            max =  105.719ms  min =  103.408ms  avg =  104.371ms

@@ -1,0 +1,135 @@
+Processor	: AArch64 Processor rev 14 (aarch64)
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+Hardware	: Qualcomm Technologies, Inc SM8150
+Build Flags: ABI=arm64-v8a OpenCL=OFF
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 20 
+epoch: 0  10 / 7500 loss: 5.96046e-08 lr: 0.00999326 time: 2707.96 ms / 9 iter
+epoch: 0  20 / 7500 loss: 5.96046e-08 lr: 0.00998577 time: 2902.43 ms / 10 iter
+Training latency of GoogLenet is : 286.161530 ms (batchsize is 1)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.GoogLenet_1.mnn
+Inferring latency of GoogLenet is : 124.116211 ms (batchsize is 1)
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 20 
+epoch: 0  20 / 7500 loss: nan lr: 0.00999326 time: 3764.84 ms / 9 iter
+epoch: 0  40 / 7500 loss: nan lr: 0.00998577 time: 3984.87 ms / 10 iter
+Training latency of GoogLenet is : 388.276001 ms (batchsize is 2)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.GoogLenet_2.mnn
+Inferring latency of GoogLenet is : 140.128143 ms (batchsize is 2)
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 20 
+epoch: 0  40 / 7500 loss: nan lr: 0.00999326 time: 5527.52 ms / 9 iter
+epoch: 0  80 / 7500 loss: nan lr: 0.00998577 time: 5793.56 ms / 10 iter
+Training latency of GoogLenet is : 567.419067 ms (batchsize is 4)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.GoogLenet_4.mnn
+Inferring latency of GoogLenet is : 167.807251 ms (batchsize is 4)
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 20 
+epoch: 0  80 / 7500 loss: nan lr: 0.00999326 time: 9116.68 ms / 9 iter
+epoch: 0  160 / 7500 loss: nan lr: 0.00998577 time: 9852.77 ms / 10 iter
+Training latency of GoogLenet is : 957.555481 ms (batchsize is 8)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.GoogLenet_8.mnn
+Inferring latency of GoogLenet is : 231.594208 ms (batchsize is 8)
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 20 
+epoch: 0  160 / 7500 loss: nan lr: 0.00999326 time: 16550.7 ms / 9 iter
+epoch: 0  320 / 7500 loss: nan lr: 0.00998577 time: 18152.7 ms / 10 iter
+Training latency of GoogLenet is : 1763.947998 ms (batchsize is 16)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.GoogLenet_16.mnn
+Inferring latency of GoogLenet is : 350.427673 ms (batchsize is 16)
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 20 
+epoch: 0  320 / 7500 loss: nan lr: 0.00999326 time: 32079.7 ms / 9 iter
+epoch: 0  640 / 7500 loss: nan lr: 0.00998577 time: 35332.5 ms / 10 iter
+Training latency of GoogLenet is : 3420.848877 ms (batchsize is 32)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.GoogLenet_32.mnn
+Inferring latency of GoogLenet is : 587.163757 ms (batchsize is 32)

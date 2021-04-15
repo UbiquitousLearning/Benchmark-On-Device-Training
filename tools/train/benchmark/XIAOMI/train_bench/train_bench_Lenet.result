@@ -1,0 +1,388 @@
+Processor	: AArch64 Processor rev 14 (aarch64)
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x805
+CPU revision	: 14
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xd
+CPU part	: 0x804
+CPU revision	: 14
+
+Hardware	: Qualcomm Technologies, Inc SM8150
+Build Flags: ABI=arm64-v8a OpenCL=OFF
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 1124 
+epoch: 0  10 / 60000 loss: 1.89221 lr: 0.00999326 time: 183.197 ms / 9 iter
+epoch: 0  20 / 60000 loss: 2.58171 lr: 0.00998577 time: 83.539 ms / 10 iter
+epoch: 0  30 / 60000 loss: 2.98597 lr: 0.0099783 time: 108.504 ms / 10 iter
+epoch: 0  40 / 60000 loss: 4.37639 lr: 0.00997085 time: 109.135 ms / 10 iter
+epoch: 0  50 / 60000 loss: 2.15501 lr: 0.00996341 time: 108.866 ms / 10 iter
+epoch: 0  60 / 60000 loss: 2.38093 lr: 0.00995598 time: 96.103 ms / 10 iter
+epoch: 0  70 / 60000 loss: 1.35325 lr: 0.00994856 time: 86.214 ms / 10 iter
+epoch: 0  80 / 60000 loss: 2.44894 lr: 0.00994116 time: 99.901 ms / 10 iter
+epoch: 0  90 / 60000 loss: 1.79709 lr: 0.00993377 time: 109.698 ms / 10 iter
+epoch: 0  100 / 60000 loss: 4.10336 lr: 0.00992639 time: 115.998 ms / 10 iter
+epoch: 0  110 / 60000 loss: 10.0335 lr: 0.00991902 time: 80.987 ms / 10 iter
+epoch: 0  120 / 60000 loss: 2.56983 lr: 0.00991167 time: 85.731 ms / 10 iter
+epoch: 0  130 / 60000 loss: 87 lr: 0.00990433 time: 104.781 ms / 10 iter
+epoch: 0  140 / 60000 loss: 2.30259 lr: 0.009897 time: 110.399 ms / 10 iter
+epoch: 0  150 / 60000 loss: 2.30259 lr: 0.00988969 time: 106.048 ms / 10 iter
+epoch: 0  160 / 60000 loss: 2.30259 lr: 0.00988238 time: 87.081 ms / 10 iter
+epoch: 0  170 / 60000 loss: 2.30259 lr: 0.0098751 time: 90.57 ms / 10 iter
+epoch: 0  180 / 60000 loss: 2.30259 lr: 0.00986782 time: 109.971 ms / 10 iter
+epoch: 0  190 / 60000 loss: 2.30259 lr: 0.00986055 time: 120.254 ms / 10 iter
+epoch: 0  200 / 60000 loss: 2.30259 lr: 0.0098533 time: 83.692 ms / 10 iter
+epoch: 0  210 / 60000 loss: 2.30259 lr: 0.00984606 time: 91.321 ms / 10 iter
+epoch: 0  220 / 60000 loss: 2.30259 lr: 0.00983883 time: 107.703 ms / 10 iter
+epoch: 0  230 / 60000 loss: 2.30259 lr: 0.00983162 time: 108.789 ms / 10 iter
+epoch: 0  240 / 60000 loss: 2.30259 lr: 0.00982442 time: 104.065 ms / 10 iter
+epoch: 0  250 / 60000 loss: 2.30259 lr: 0.00981723 time: 98.923 ms / 10 iter
+epoch: 0  260 / 60000 loss: 2.30259 lr: 0.00981005 time: 107.958 ms / 10 iter
+epoch: 0  270 / 60000 loss: 2.30259 lr: 0.00980288 time: 112.2 ms / 10 iter
+epoch: 0  280 / 60000 loss: 2.30259 lr: 0.00979573 time: 114.052 ms / 10 iter
+epoch: 0  290 / 60000 loss: 2.30259 lr: 0.00978859 time: 86.945 ms / 10 iter
+epoch: 0  300 / 60000 loss: 2.30259 lr: 0.00978146 time: 100.329 ms / 10 iter
+epoch: 0  310 / 60000 loss: 2.30259 lr: 0.00977434 time: 93.1 ms / 10 iter
+epoch: 0  320 / 60000 loss: 2.30259 lr: 0.00976724 time: 85.669 ms / 10 iter
+epoch: 0  330 / 60000 loss: 2.30259 lr: 0.00976015 time: 87.102 ms / 10 iter
+epoch: 0  340 / 60000 loss: 2.30259 lr: 0.00975306 time: 81.484 ms / 10 iter
+epoch: 0  350 / 60000 loss: 2.30259 lr: 0.009746 time: 100.963 ms / 10 iter
+epoch: 0  360 / 60000 loss: 2.30259 lr: 0.00973894 time: 115.995 ms / 10 iter
+epoch: 0  370 / 60000 loss: 2.30259 lr: 0.00973189 time: 100.446 ms / 10 iter
+epoch: 0  380 / 60000 loss: 2.30259 lr: 0.00972486 time: 88.513 ms / 10 iter
+epoch: 0  390 / 60000 loss: 2.30259 lr: 0.00971784 time: 83.741 ms / 10 iter
+epoch: 0  400 / 60000 loss: 2.30259 lr: 0.00971083 time: 103.118 ms / 10 iter
+epoch: 0  410 / 60000 loss: 2.30259 lr: 0.00970383 time: 99.395 ms / 10 iter
+epoch: 0  420 / 60000 loss: 2.30259 lr: 0.00969684 time: 102.216 ms / 10 iter
+epoch: 0  430 / 60000 loss: 2.30259 lr: 0.00968987 time: 82.544 ms / 10 iter
+epoch: 0  440 / 60000 loss: 2.30259 lr: 0.00968291 time: 83.297 ms / 10 iter
+epoch: 0  450 / 60000 loss: 2.30259 lr: 0.00967596 time: 108.377 ms / 10 iter
+epoch: 0  460 / 60000 loss: 2.30259 lr: 0.00966902 time: 112.454 ms / 10 iter
+epoch: 0  470 / 60000 loss: 2.30259 lr: 0.00966209 time: 102.746 ms / 10 iter
+epoch: 0  480 / 60000 loss: 2.30259 lr: 0.00965517 time: 84.345 ms / 10 iter
+epoch: 0  490 / 60000 loss: 2.30259 lr: 0.00964827 time: 97.496 ms / 10 iter
+epoch: 0  500 / 60000 loss: 2.30259 lr: 0.00964138 time: 109.325 ms / 10 iter
+epoch: 0  510 / 60000 loss: 2.30259 lr: 0.00963449 time: 115.346 ms / 10 iter
+epoch: 0  520 / 60000 loss: 2.30259 lr: 0.00962762 time: 85.773 ms / 10 iter
+epoch: 0  530 / 60000 loss: 2.30259 lr: 0.00962077 time: 87.624 ms / 10 iter
+epoch: 0  540 / 60000 loss: 2.30259 lr: 0.00961392 time: 111.714 ms / 10 iter
+epoch: 0  550 / 60000 loss: 2.30259 lr: 0.00960708 time: 112.58 ms / 10 iter
+epoch: 0  560 / 60000 loss: 2.30259 lr: 0.00960026 time: 101.875 ms / 10 iter
+epoch: 0  570 / 60000 loss: 2.30259 lr: 0.00959344 time: 84.378 ms / 10 iter
+epoch: 0  580 / 60000 loss: 2.30259 lr: 0.00958664 time: 91.053 ms / 10 iter
+epoch: 0  590 / 60000 loss: 2.30259 lr: 0.00957985 time: 111.76 ms / 10 iter
+epoch: 0  600 / 60000 loss: 2.30259 lr: 0.00957307 time: 115.138 ms / 10 iter
+epoch: 0  610 / 60000 loss: 2.30259 lr: 0.0095663 time: 89.518 ms / 10 iter
+epoch: 0  620 / 60000 loss: 2.30259 lr: 0.00955955 time: 82.469 ms / 10 iter
+epoch: 0  630 / 60000 loss: 2.30259 lr: 0.0095528 time: 109.074 ms / 10 iter
+epoch: 0  640 / 60000 loss: 2.30259 lr: 0.00954606 time: 110.057 ms / 10 iter
+epoch: 0  650 / 60000 loss: 2.30259 lr: 0.00953934 time: 107.721 ms / 10 iter
+epoch: 0  660 / 60000 loss: 2.30259 lr: 0.00953263 time: 83.144 ms / 10 iter
+epoch: 0  670 / 60000 loss: 2.30259 lr: 0.00952593 time: 92.92 ms / 10 iter
+epoch: 0  680 / 60000 loss: 2.30259 lr: 0.00951924 time: 110.182 ms / 10 iter
+epoch: 0  690 / 60000 loss: 2.30259 lr: 0.00951256 time: 113.211 ms / 10 iter
+epoch: 0  700 / 60000 loss: 2.30259 lr: 0.00950589 time: 88.529 ms / 10 iter
+epoch: 0  710 / 60000 loss: 2.30259 lr: 0.00949923 time: 88.361 ms / 10 iter
+epoch: 0  720 / 60000 loss: 2.30259 lr: 0.00949258 time: 106.522 ms / 10 iter
+epoch: 0  730 / 60000 loss: 2.30259 lr: 0.00948594 time: 111.873 ms / 10 iter
+epoch: 0  740 / 60000 loss: 2.30259 lr: 0.00947932 time: 108.113 ms / 10 iter
+epoch: 0  750 / 60000 loss: 2.30259 lr: 0.0094727 time: 85.924 ms / 10 iter
+epoch: 0  760 / 60000 loss: 2.30259 lr: 0.0094661 time: 91.986 ms / 10 iter
+epoch: 0  770 / 60000 loss: 2.30259 lr: 0.00945951 time: 115.894 ms / 10 iter
+epoch: 0  780 / 60000 loss: 2.30259 lr: 0.00945292 time: 117.386 ms / 10 iter
+epoch: 0  790 / 60000 loss: 2.30259 lr: 0.00944635 time: 82.862 ms / 10 iter
+epoch: 0  800 / 60000 loss: 2.30259 lr: 0.00943979 time: 86.421 ms / 10 iter
+epoch: 0  810 / 60000 loss: 2.30259 lr: 0.00943324 time: 106.885 ms / 10 iter
+epoch: 0  820 / 60000 loss: 2.30259 lr: 0.0094267 time: 111.977 ms / 10 iter
+epoch: 0  830 / 60000 loss: 2.30259 lr: 0.00942017 time: 108.776 ms / 10 iter
+epoch: 0  840 / 60000 loss: 2.30259 lr: 0.00941365 time: 84.569 ms / 10 iter
+epoch: 0  850 / 60000 loss: 2.30259 lr: 0.00940714 time: 95.601 ms / 10 iter
+epoch: 0  860 / 60000 loss: 2.30259 lr: 0.00940064 time: 110.918 ms / 10 iter
+epoch: 0  870 / 60000 loss: 2.30259 lr: 0.00939416 time: 117.445 ms / 10 iter
+epoch: 0  880 / 60000 loss: 2.30259 lr: 0.00938768 time: 85.878 ms / 10 iter
+epoch: 0  890 / 60000 loss: 2.30259 lr: 0.00938121 time: 84.424 ms / 10 iter
+epoch: 0  900 / 60000 loss: 2.30259 lr: 0.00937476 time: 108.667 ms / 10 iter
+epoch: 0  910 / 60000 loss: 2.30259 lr: 0.00936831 time: 112.74 ms / 10 iter
+epoch: 0  920 / 60000 loss: 2.30259 lr: 0.00936188 time: 108.596 ms / 10 iter
+epoch: 0  930 / 60000 loss: 2.30259 lr: 0.00935545 time: 87.432 ms / 10 iter
+epoch: 0  940 / 60000 loss: 2.30259 lr: 0.00934904 time: 93.566 ms / 10 iter
+epoch: 0  950 / 60000 loss: 2.30259 lr: 0.00934263 time: 111.541 ms / 10 iter
+epoch: 0  960 / 60000 loss: 2.30259 lr: 0.00933624 time: 113.855 ms / 10 iter
+epoch: 0  970 / 60000 loss: 2.30259 lr: 0.00932985 time: 84.112 ms / 10 iter
+epoch: 0  980 / 60000 loss: 2.30259 lr: 0.00932348 time: 91.633 ms / 10 iter
+epoch: 0  990 / 60000 loss: 2.30259 lr: 0.00931711 time: 108.974 ms / 10 iter
+epoch: 0  1000 / 60000 loss: 2.30259 lr: 0.00931076 time: 110.563 ms / 10 iter
+epoch: 0  1010 / 60000 loss: 2.30259 lr: 0.00930441 time: 91.575 ms / 10 iter
+epoch: 0  1020 / 60000 loss: 2.30259 lr: 0.00929808 time: 86.867 ms / 10 iter
+epoch: 0  1030 / 60000 loss: 2.30259 lr: 0.00929176 time: 90.506 ms / 10 iter
+epoch: 0  1040 / 60000 loss: 2.30259 lr: 0.00928544 time: 112.669 ms / 10 iter
+epoch: 0  1050 / 60000 loss: 2.30259 lr: 0.00927914 time: 113.859 ms / 10 iter
+epoch: 0  1060 / 60000 loss: 2.30259 lr: 0.00927285 time: 82.674 ms / 10 iter
+epoch: 0  1070 / 60000 loss: 2.30259 lr: 0.00926656 time: 85.651 ms / 10 iter
+epoch: 0  1080 / 60000 loss: 2.30259 lr: 0.00926029 time: 109.225 ms / 10 iter
+epoch: 0  1090 / 60000 loss: 2.30259 lr: 0.00925403 time: 109.539 ms / 10 iter
+epoch: 0  1100 / 60000 loss: 2.30259 lr: 0.00924777 time: 97.803 ms / 10 iter
+epoch: 0  1110 / 60000 loss: 2.30259 lr: 0.00924153 time: 84.805 ms / 10 iter
+epoch: 0  1120 / 60000 loss: 2.30259 lr: 0.00923529 time: 85.161 ms / 10 iter
+epoch: 0  1130 / 60000 loss: 2.30259 lr: 0.00922907 time: 97.526 ms / 10 iter
+Training latency of Lenet is : 9.657965 ms (batchsize is 1)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.Lenet_1.mnn
+test: 100 / 10000
+test: 200 / 10000
+test: 300 / 10000
+test: 400 / 10000
+test: 500 / 10000
+test: 600 / 10000
+test: 700 / 10000
+test: 800 / 10000
+test: 900 / 10000
+test: 1000 / 10000
+test: 1100 / 10000
+Inferring latency of Lenet is : 0.735792 ms (batchsize is 1)
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 612 
+epoch: 0  20 / 60000 loss: 2.08062 lr: 0.00999326 time: 222.933 ms / 9 iter
+epoch: 0  40 / 60000 loss: 2.26861 lr: 0.00998577 time: 114.421 ms / 10 iter
+epoch: 0  60 / 60000 loss: 2.54119 lr: 0.0099783 time: 124.082 ms / 10 iter
+epoch: 0  80 / 60000 loss: 2.18802 lr: 0.00997085 time: 153.552 ms / 10 iter
+epoch: 0  100 / 60000 loss: 2.00116 lr: 0.00996341 time: 121.182 ms / 10 iter
+epoch: 0  120 / 60000 loss: 0.751816 lr: 0.00995598 time: 110.295 ms / 10 iter
+epoch: 0  140 / 60000 loss: 2.0225 lr: 0.00994856 time: 128.213 ms / 10 iter
+epoch: 0  160 / 60000 loss: 3.02885 lr: 0.00994116 time: 146.665 ms / 10 iter
+epoch: 0  180 / 60000 loss: 0.90572 lr: 0.00993377 time: 99.62 ms / 10 iter
+epoch: 0  200 / 60000 loss: 3.92911 lr: 0.00992639 time: 111.955 ms / 10 iter
+epoch: 0  220 / 60000 loss: 4.10806 lr: 0.00991902 time: 150.63 ms / 10 iter
+epoch: 0  240 / 60000 loss: 1.36322 lr: 0.00991167 time: 135.889 ms / 10 iter
+epoch: 0  260 / 60000 loss: 2.18102 lr: 0.00990433 time: 102.699 ms / 10 iter
+epoch: 0  280 / 60000 loss: 1.53267 lr: 0.009897 time: 128.618 ms / 10 iter
+epoch: 0  300 / 60000 loss: 1.83918 lr: 0.00988969 time: 156.485 ms / 10 iter
+epoch: 0  320 / 60000 loss: 2.79458 lr: 0.00988238 time: 109.223 ms / 10 iter
+epoch: 0  340 / 60000 loss: 4.10515 lr: 0.0098751 time: 119.976 ms / 10 iter
+epoch: 0  360 / 60000 loss: 2.30792 lr: 0.00986782 time: 149.139 ms / 10 iter
+epoch: 0  380 / 60000 loss: 1.77685 lr: 0.00986055 time: 126.255 ms / 10 iter
+epoch: 0  400 / 60000 loss: 2.58704 lr: 0.0098533 time: 119.769 ms / 10 iter
+epoch: 0  420 / 60000 loss: 1.5028 lr: 0.00984606 time: 132.7 ms / 10 iter
+epoch: 0  440 / 60000 loss: 2.16303 lr: 0.00983883 time: 147.337 ms / 10 iter
+epoch: 0  460 / 60000 loss: 1.3228 lr: 0.00983162 time: 101.484 ms / 10 iter
+epoch: 0  480 / 60000 loss: 2.59409 lr: 0.00982442 time: 124.083 ms / 10 iter
+epoch: 0  500 / 60000 loss: 2.13857 lr: 0.00981723 time: 153.024 ms / 10 iter
+epoch: 0  520 / 60000 loss: 2.41814 lr: 0.00981005 time: 118.477 ms / 10 iter
+epoch: 0  540 / 60000 loss: 1.98126 lr: 0.00980288 time: 106.124 ms / 10 iter
+epoch: 0  560 / 60000 loss: 1.98603 lr: 0.00979573 time: 143.984 ms / 10 iter
+epoch: 0  580 / 60000 loss: 3.10334 lr: 0.00978859 time: 146.086 ms / 10 iter
+epoch: 0  600 / 60000 loss: 2.30422 lr: 0.00978146 time: 102.001 ms / 10 iter
+epoch: 0  620 / 60000 loss: 1.64062 lr: 0.00977434 time: 115.396 ms / 10 iter
+epoch: 0  640 / 60000 loss: 0.931081 lr: 0.00976724 time: 111.689 ms / 10 iter
+epoch: 0  660 / 60000 loss: 2.45044 lr: 0.00976015 time: 127.428 ms / 10 iter
+epoch: 0  680 / 60000 loss: 1.47511 lr: 0.00975306 time: 103.891 ms / 10 iter
+epoch: 0  700 / 60000 loss: 1.54025 lr: 0.009746 time: 128.672 ms / 10 iter
+epoch: 0  720 / 60000 loss: 0.00109037 lr: 0.00973894 time: 157.59 ms / 10 iter
+epoch: 0  740 / 60000 loss: 2.12569 lr: 0.00973189 time: 141.768 ms / 10 iter
+epoch: 0  760 / 60000 loss: 0.283813 lr: 0.00972486 time: 110.023 ms / 10 iter
+epoch: 0  780 / 60000 loss: 1.84433 lr: 0.00971784 time: 140.596 ms / 10 iter
+epoch: 0  800 / 60000 loss: 1.73712 lr: 0.00971083 time: 145.448 ms / 10 iter
+epoch: 0  820 / 60000 loss: 4.23217 lr: 0.00970383 time: 104.51 ms / 10 iter
+epoch: 0  840 / 60000 loss: 2.3077 lr: 0.00969684 time: 138.752 ms / 10 iter
+epoch: 0  860 / 60000 loss: 8.63456 lr: 0.00968987 time: 160.992 ms / 10 iter
+epoch: 0  880 / 60000 loss: 1.53535 lr: 0.00968291 time: 104.683 ms / 10 iter
+epoch: 0  900 / 60000 loss: 1.07791 lr: 0.00967596 time: 116.516 ms / 10 iter
+epoch: 0  920 / 60000 loss: 1.99725 lr: 0.00966902 time: 154.668 ms / 10 iter
+epoch: 0  940 / 60000 loss: 3.85151 lr: 0.00966209 time: 125.425 ms / 10 iter
+epoch: 0  960 / 60000 loss: 1.06151 lr: 0.00965517 time: 101.95 ms / 10 iter
+epoch: 0  980 / 60000 loss: 1.32282 lr: 0.00964827 time: 135.639 ms / 10 iter
+epoch: 0  1000 / 60000 loss: 1.70541 lr: 0.00964138 time: 155.78 ms / 10 iter
+epoch: 0  1020 / 60000 loss: 2.61843 lr: 0.00963449 time: 105.709 ms / 10 iter
+epoch: 0  1040 / 60000 loss: 2.46965 lr: 0.00962762 time: 126.865 ms / 10 iter
+epoch: 0  1060 / 60000 loss: 2.26649 lr: 0.00962077 time: 159.372 ms / 10 iter
+epoch: 0  1080 / 60000 loss: 1.99047 lr: 0.00961392 time: 114.972 ms / 10 iter
+epoch: 0  1100 / 60000 loss: 2.09312 lr: 0.00960708 time: 109.075 ms / 10 iter
+epoch: 0  1120 / 60000 loss: 2.58385 lr: 0.00960026 time: 139.378 ms / 10 iter
+epoch: 0  1140 / 60000 loss: 2.335 lr: 0.00959344 time: 152.135 ms / 10 iter
+epoch: 0  1160 / 60000 loss: 2.27113 lr: 0.00958664 time: 107.732 ms / 10 iter
+epoch: 0  1180 / 60000 loss: 2.09024 lr: 0.00957985 time: 119.981 ms / 10 iter
+epoch: 0  1200 / 60000 loss: 2.27195 lr: 0.00957307 time: 154.447 ms / 10 iter
+epoch: 0  1220 / 60000 loss: 2.11132 lr: 0.0095663 time: 124.942 ms / 10 iter
+Training latency of Lenet is : 12.346462 ms (batchsize is 2)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.Lenet_2.mnn
+test: 200 / 10000
+test: 400 / 10000
+test: 600 / 10000
+test: 800 / 10000
+test: 1000 / 10000
+test: 1200 / 10000
+Inferring latency of Lenet is : 1.555727 ms (batchsize is 2)
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 356 
+epoch: 0  40 / 60000 loss: 2.89294 lr: 0.00999326 time: 176.702 ms / 9 iter
+epoch: 0  80 / 60000 loss: 2.20667 lr: 0.00998577 time: 143.911 ms / 10 iter
+epoch: 0  120 / 60000 loss: 1.34192 lr: 0.0099783 time: 174.381 ms / 10 iter
+epoch: 0  160 / 60000 loss: 1.88803 lr: 0.00997085 time: 117.967 ms / 10 iter
+epoch: 0  200 / 60000 loss: 1.4341 lr: 0.00996341 time: 133.813 ms / 10 iter
+epoch: 0  240 / 60000 loss: 0.40147 lr: 0.00995598 time: 168.74 ms / 10 iter
+epoch: 0  280 / 60000 loss: 1.97354 lr: 0.00994856 time: 124.202 ms / 10 iter
+epoch: 0  320 / 60000 loss: 0.890988 lr: 0.00994116 time: 141.627 ms / 10 iter
+epoch: 0  360 / 60000 loss: 0.705913 lr: 0.00993377 time: 183.829 ms / 10 iter
+epoch: 0  400 / 60000 loss: 0.296957 lr: 0.00992639 time: 112.407 ms / 10 iter
+epoch: 0  440 / 60000 loss: 0.60653 lr: 0.00991902 time: 137.834 ms / 10 iter
+epoch: 0  480 / 60000 loss: 0.761886 lr: 0.00991167 time: 179.035 ms / 10 iter
+epoch: 0  520 / 60000 loss: 1.51581 lr: 0.00990433 time: 117.698 ms / 10 iter
+epoch: 0  560 / 60000 loss: 1.22616 lr: 0.009897 time: 134.609 ms / 10 iter
+epoch: 0  600 / 60000 loss: 0.359834 lr: 0.00988969 time: 175.534 ms / 10 iter
+epoch: 0  640 / 60000 loss: 0.0541244 lr: 0.00988238 time: 124.736 ms / 10 iter
+epoch: 0  680 / 60000 loss: 0.322832 lr: 0.0098751 time: 133.482 ms / 10 iter
+epoch: 0  720 / 60000 loss: 0.315292 lr: 0.00986782 time: 177.318 ms / 10 iter
+epoch: 0  760 / 60000 loss: 1.00451 lr: 0.00986055 time: 123.937 ms / 10 iter
+epoch: 0  800 / 60000 loss: 1.43535 lr: 0.0098533 time: 123.989 ms / 10 iter
+epoch: 0  840 / 60000 loss: 0.0433701 lr: 0.00984606 time: 172.86 ms / 10 iter
+epoch: 0  880 / 60000 loss: 0.137145 lr: 0.00983883 time: 131.42 ms / 10 iter
+epoch: 0  920 / 60000 loss: 0.760782 lr: 0.00983162 time: 121.969 ms / 10 iter
+epoch: 0  960 / 60000 loss: 1.6412 lr: 0.00982442 time: 163.489 ms / 10 iter
+epoch: 0  1000 / 60000 loss: 2.7261 lr: 0.00981723 time: 154.078 ms / 10 iter
+epoch: 0  1040 / 60000 loss: 0.513592 lr: 0.00981005 time: 120.72 ms / 10 iter
+epoch: 0  1080 / 60000 loss: 1.52438 lr: 0.00980288 time: 153.828 ms / 10 iter
+epoch: 0  1120 / 60000 loss: 1.62679 lr: 0.00979573 time: 161.491 ms / 10 iter
+epoch: 0  1160 / 60000 loss: 0.317926 lr: 0.00978859 time: 113.273 ms / 10 iter
+epoch: 0  1200 / 60000 loss: 1.52723 lr: 0.00978146 time: 149.702 ms / 10 iter
+epoch: 0  1240 / 60000 loss: 0.880278 lr: 0.00977434 time: 169.962 ms / 10 iter
+epoch: 0  1280 / 60000 loss: 2.52671 lr: 0.00976724 time: 114.048 ms / 10 iter
+epoch: 0  1320 / 60000 loss: 0.217856 lr: 0.00976015 time: 133.157 ms / 10 iter
+epoch: 0  1360 / 60000 loss: 3.2908 lr: 0.00975306 time: 175.836 ms / 10 iter
+epoch: 0  1400 / 60000 loss: 1.10662 lr: 0.009746 time: 127.654 ms / 10 iter
+epoch: 0  1440 / 60000 loss: 2.93342 lr: 0.00973894 time: 122.325 ms / 10 iter
+Training latency of Lenet is : 13.750453 ms (batchsize is 4)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.Lenet_4.mnn
+test: 400 / 10000
+test: 800 / 10000
+test: 1200 / 10000
+Inferring latency of Lenet is : 2.026382 ms (batchsize is 4)
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 228 
+epoch: 0  80 / 60000 loss: 2.48066 lr: 0.00999326 time: 246.872 ms / 9 iter
+epoch: 0  160 / 60000 loss: 1.92627 lr: 0.00998577 time: 177.751 ms / 10 iter
+epoch: 0  240 / 60000 loss: 1.07872 lr: 0.0099783 time: 166.207 ms / 10 iter
+epoch: 0  320 / 60000 loss: 1.18526 lr: 0.00997085 time: 188.394 ms / 10 iter
+epoch: 0  400 / 60000 loss: 0.539842 lr: 0.00996341 time: 145.894 ms / 10 iter
+epoch: 0  480 / 60000 loss: 0.675876 lr: 0.00995598 time: 180.486 ms / 10 iter
+epoch: 0  560 / 60000 loss: 1.55427 lr: 0.00994856 time: 166.13 ms / 10 iter
+epoch: 0  640 / 60000 loss: 0.304343 lr: 0.00994116 time: 157.938 ms / 10 iter
+epoch: 0  720 / 60000 loss: 0.56892 lr: 0.00993377 time: 178.96 ms / 10 iter
+epoch: 0  800 / 60000 loss: 1.08129 lr: 0.00992639 time: 158.28 ms / 10 iter
+epoch: 0  880 / 60000 loss: 1.01558 lr: 0.00991902 time: 171.466 ms / 10 iter
+epoch: 0  960 / 60000 loss: 0.891909 lr: 0.00991167 time: 181.57 ms / 10 iter
+epoch: 0  1040 / 60000 loss: 0.122942 lr: 0.00990433 time: 145.114 ms / 10 iter
+epoch: 0  1120 / 60000 loss: 1.0619 lr: 0.009897 time: 181.657 ms / 10 iter
+epoch: 0  1200 / 60000 loss: 2.2198 lr: 0.00988969 time: 159.519 ms / 10 iter
+epoch: 0  1280 / 60000 loss: 0.361844 lr: 0.00988238 time: 172.614 ms / 10 iter
+epoch: 0  1360 / 60000 loss: 1.57045 lr: 0.0098751 time: 190.302 ms / 10 iter
+epoch: 0  1440 / 60000 loss: 1.00328 lr: 0.00986782 time: 153.865 ms / 10 iter
+epoch: 0  1520 / 60000 loss: 0.52068 lr: 0.00986055 time: 182.206 ms / 10 iter
+epoch: 0  1600 / 60000 loss: 0.301129 lr: 0.0098533 time: 171.822 ms / 10 iter
+epoch: 0  1680 / 60000 loss: 1.14378 lr: 0.00984606 time: 158.734 ms / 10 iter
+epoch: 0  1760 / 60000 loss: 0.243757 lr: 0.00983883 time: 191.864 ms / 10 iter
+epoch: 0  1840 / 60000 loss: 0.34905 lr: 0.00983162 time: 149.907 ms / 10 iter
+Training latency of Lenet is : 16.259598 ms (batchsize is 8)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.Lenet_8.mnn
+test: 800 / 10000
+test: 1600 / 10000
+Inferring latency of Lenet is : 3.338058 ms (batchsize is 8)
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+ warmUp: 5 
+ measureIteration: 164 
+epoch: 0  160 / 60000 loss: 2.05154 lr: 0.00999326 time: 275.693 ms / 9 iter
+epoch: 0  320 / 60000 loss: 2.33023 lr: 0.00998577 time: 197.556 ms / 10 iter
+epoch: 0  480 / 60000 loss: 1.15162 lr: 0.0099783 time: 205.262 ms / 10 iter
+epoch: 0  640 / 60000 loss: 1.20981 lr: 0.00997085 time: 195.645 ms / 10 iter
+epoch: 0  800 / 60000 loss: 0.857719 lr: 0.00996341 time: 203.092 ms / 10 iter
+epoch: 0  960 / 60000 loss: 0.733666 lr: 0.00995598 time: 208.153 ms / 10 iter
+epoch: 0  1120 / 60000 loss: 0.832097 lr: 0.00994856 time: 202.175 ms / 10 iter
+epoch: 0  1280 / 60000 loss: 0.45922 lr: 0.00994116 time: 195.236 ms / 10 iter
+epoch: 0  1440 / 60000 loss: 0.777249 lr: 0.00993377 time: 193.196 ms / 10 iter
+epoch: 0  1600 / 60000 loss: 0.648055 lr: 0.00992639 time: 198.483 ms / 10 iter
+epoch: 0  1760 / 60000 loss: 0.254755 lr: 0.00991902 time: 203.719 ms / 10 iter
+epoch: 0  1920 / 60000 loss: 0.295675 lr: 0.00991167 time: 202.155 ms / 10 iter
+epoch: 0  2080 / 60000 loss: 0.786159 lr: 0.00990433 time: 198.614 ms / 10 iter
+epoch: 0  2240 / 60000 loss: 0.61708 lr: 0.009897 time: 205.048 ms / 10 iter
+epoch: 0  2400 / 60000 loss: 0.215914 lr: 0.00988969 time: 196.126 ms / 10 iter
+epoch: 0  2560 / 60000 loss: 0.557577 lr: 0.00988238 time: 205.947 ms / 10 iter
+epoch: 0  2720 / 60000 loss: 0.921681 lr: 0.0098751 time: 192.804 ms / 10 iter
+Training latency of Lenet is : 19.145403 ms (batchsize is 16)
+Open mnist.snapshot.mnn error
+modeName is /data/local/tmp/temp.Lenet_16.mnn
+test: 1600 / 10000
+Inferring latency of Lenet is : 5.553464 ms (batchsize is 16)

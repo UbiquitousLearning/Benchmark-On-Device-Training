@@ -1,0 +1,1162 @@
+Processor	: AArch64 Processor rev 4 (aarch64)
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x801
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x801
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x801
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x801
+CPU revision	: 4
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x800
+CPU revision	: 1
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x800
+CPU revision	: 1
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x800
+CPU revision	: 1
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x51
+CPU architecture: 8
+CPU variant	: 0xa
+CPU part	: 0x800
+CPU revision	: 1
+
+Hardware	: Qualcomm Technologies, Inc MSM8998
+
+Build Flags: ABI=arm64-v8a OpenCL=ON
+Error for open mnist.snapshot.mnn
+Error parameters, empty or parameter size not match 
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+epoch: 0  320 / 60000 loss: 3.01172 lr: 0.00999326 time: 158493 ms / 9 iter
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:9, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:384
+output n:32, h:10, w:10, c:384
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:9, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:9, w:25600, c:1
+output n:32, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:10, w:10, c:256
+output n:32, h:10, w:10, c:256
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:25, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:25, w:38400, c:1
+output n:32, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:32, h:20, w:20, c:96
+output n:32, h:20, w:20, c:96
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:96, h:400, w:1, c:1
+output n:96, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:32, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:102400, c:1
+output n:1, h:1, w:102400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:400, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:400, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:32, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:38400, c:1
+output n:1, h:1, w:38400, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:384, h:100, w:1, c:1
+output n:384, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:32, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:1, h:32, w:25600, c:1
+output n:1, h:1, w:25600, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:100, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+input n:256, h:100, w:1, c:1
+output n:256, h:1, w:1, c:1
+beyond cl_image creat size! fallback to cpu backend
+Training latency of Lenet on Mnist is : 16823.021484 ms (batchsize is 32)
+Open mnist.snapshot.mnn error
+Open temp.mnist.mnn error
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Don't support type ArgMax
+The Creator Don't support type BinaryOp
+Inferring latency of Lenet on Mnist is : 2976.122559 ms (batchsize is 32)
+epoch: 0  accuracy: 0.0074
