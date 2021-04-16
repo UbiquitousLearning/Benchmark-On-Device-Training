@@ -1,98 +1,173 @@
-![MNN](doc/banner.png)
+# First benchmark suite for on-device training
 
-[中文版本](README_CN.md)
+> The suite is based on MNN, and our unique contribution is placed in [./tools/train/benchmark](./tools/train/benchmark).
+## Table of Contents
 
-[MNN Homepage](http://www.mnn.zone)
+- [Background](#background)
+- [Overview](#overview)
+- [Suite Composition](#suite-composition)
+  - [NN models](#nn-models)
+  - [GPU Training](#gpu-training)
+  - [Latency Test](#latency-test)
+  - [CPU Configuration](#cpu-configuration)
+  - [Thermal Dynamics](#thermal-dynamics)
+- [Step-by-step Instructions](#step-by-step-instructions)
+  - [root](#root-instruction)
+  - [unroot](#unroot-instruction)
+- [Example](#example)
+- [Roadmap](#roadmap)
+- [Related Work](#related-work)
+- [Contributors](#contributors)
 
-## Intro
-MNN is a highly efficient and lightweight deep learning framework. It supports inference and training of deep learning models, and has industry leading performance for inference and training on-device. At present, MNN has been integrated in more than 20 apps of Alibaba Inc, such as Taobao, Tmall, Youku, Dingtalk, Xianyu and etc., covering more than 70 usage scenarios such as live broadcast, short video capture, search recommendation, product searching by image, interactive marketing, equity distribution, security risk control. In addition, MNN is also used on embedded devices, such as IoT.
 
-The design principles and performance data of MNN has been published in an MLSys 2020 paper [here](https://proceedings.mlsys.org/static/paper_files/mlsys/2020/7-Paper.pdf). Please cite MNN in your publications if it helps your research:
+## Background
+Deep learning technique is revolutionizing how edge
+devices interact with users or the world, including smartphones and IoT devices. Fueled by the increasingly
+powerful on-chip processors, the inference (or prediction) stage of deep learning is known to happen on edge devices without cloud offloading, making a case for low delay and data privacy protection. Beyond inference, the training stage of deep learning is still commonly placed on data centers for its tremendous demand of massive training data and computing resources.
 
-    @inproceedings{alibaba2020mnn,
-      author = {Jiang, Xiaotang and Wang, Huan and Chen, Yiliu and Wu, Ziqi and Wang, Lichuan and Zou, Bin and Yang, Yafeng and Cui, Zongyang and Cai, Yu and Yu, Tianhang and Lv, Chengfei and Wu, Zhihua},
-      title = {MNN: A Universal and Efficient Inference Engine},
-      booktitle = {MLSys},
-      year = {2020}
-    }
+In 2019, alibaba proposed a highly efficient and lightweight deep learning framework: [MNN](https://github.com/alibaba/MNN), which supports inference and training of deep learning models, and has industry leading performance for inference and training on-device. So we develop the first benchmark suite for on-device training based on MNN.
 
-## Documentation and Tools
-MNN's docs are in placed in [Yuque docs here](https://www.yuque.com/mnn/en).
+## Overview
+Our benchmark suite includes 5 classical NN models, and
+can bench CPU/GPU training performance metrics including training latency, energy consumption, memory footprint, hardware utilization, and thermal dynamics. The suite can run on both root and unroot devices.
 
-MNN Workbench could be downloaded from [MNN's homepage](http://www.mnn.zone), which provides pretrained models, visualized training tools, and one-click deployment of models to devices.
+## Suite Composition
 
-## Key Features
-### High performance
-- Implements core computing with lots of optimized assembly code to make full use of the ARM CPU.
-- For iOS, GPU acceleration (Metal) can be turned on, which is faster than Apple's native CoreML.
-- For Android, `OpenCL`, `Vulkan`, and `OpenGL` are available and deep tuned for mainstream GPUs (`Adreno` and `Mali`).
-- Convolution and transposition convolution algorithms are efficient and stable. The Winograd convolution algorithm is widely used to better symmetric convolutions such as 3x3 -> 7x7.
-- Twice speed increase for the new architecture ARM v8.2 with FP16 half-precision calculation support.
+### NN models
+Besides from the two NN models that MNN has supported, we add three more models (implemented in [models](../source/models)). Five classical CNN models are tested in our experiments:  LeNet (2 convs, 3.2K parameters), AlexNet (5
+convs, 61M parameters), MobileNetv2 (53 convs, 3.4M
+parameters), SqueezeNet (18 convs, 411.2K parameters),
+and GoogLeNet (22 convs, 6.8M parameters).
 
-### Lightweight
-- Optimized for devices, no dependencies, can be easily deployed to mobile devices and a variety of embedded devices.
-- iOS platform: static library size for armv7+arm64 platforms is about 5MB, size increase of linked executables is about 620KB, and metallib file is about 600KB.
-- Android platform: core so size is about 400KB, OpenCL so is about 400KB, Vulkan so is about 400KB.
+### GPU Training
+We add essential operations for GPU training using OPENCL and enable preliminary measurement, which means the latency and memory you get are only suggested for reference.
 
-### Versatility
-- Supports `Tensorflow`, `Caffe`, `ONNX`, and supports common neural networks such as `CNN`, `RNN`, `GAN`.
-- MNN model converter supports 149 `Tensorflow` OPs, 58 `TFLite` OPs, 47 `Caffe` OPs and 74 `ONNX` OPs; Number of OPs by different MNN hardware backends: 111 for CPU, 6 for ARM V8.2, 55 for Metal, 43 for OpenCL, and 32 for Vulkan.
-- Supports iOS 8.0+, Android 4.3+ and embedded devices with POSIX interface.
-- Supports hybrid computing on multiple devices. Currently supports CPU and GPU.
+### Latency Test
+Our suite can help you test the training/inference latency with different models in a simple way, just need to run [get_data_root.sh](./get_data_root.sh)/[get_data_unroot.sh](./get_data_unroot.sh) refer to [instructions](#step-by-step-instructions).
 
-### Ease of use
-- Efficient image processing module, speeding up affine transform and color space transform without libyuv or opencv.
-- Provides callbacks throughout the workflow to extract data or control the execution precisely.
-- Provides options for selecting inference branch and paralleling branches on CPU and GPU.
-- (BETA) MNN Python API helps ML engineers to easily use MNN to build a model, train it and quantize it, without dipping their toes in C++ code.
+### CPU Configuration
+_Because unroot devices have no root for changing cpu configuration, so those function are only available for root devices_
 
-## Architecture
-![architecture](doc/architecture.png)
+With different parameters for [get_data_root.sh](./get_data_root.sh), you can change numbers of CPU cores used for training or even specify which core you want to use.
 
-MNN can be divided into two parts: Converter and Interpreter.
+Besides from numbers of CPU, frequency is a important factor affecting training performance as well. So we developed [get_data_root_freq.sh](./get_data_root_freq.sh) to help you quickly test the difference of training performance under different frequencies.
+### Thermal Dynamics
+To reach a usable accuracy, the training phase often takes a substantial period of time which may lead to thermal issues and therefore the CPU frequency. So we provide the [freq_temperature monitor](./freq_temperature.sh) for you to know your training device better.
 
-Converter consists of Frontends and Graph Optimize. The former is responsible for supporting different training frameworks. MNN currently supports Tensorflow, Tensorflow Lite, Caffe and ONNX (PyTorch/MXNet); the latter optimizes graphs by operator fusion, operator substitution, and layout adjustment.
+## Step-by-step Instructions
 
-Interpreter consists of Engine and Backends. The former is responsible for the loading of the model and the scheduling of the calculation graph; the latter includes the memory allocation and the Op implementation under each computing device. In Engine and Backends, MNN applies a variety of optimization schemes, including applying Winograd algorithm in convolution and deconvolution, applying Strassen algorithm in matrix multiplication, low-precision calculation, Neon optimization, hand-written assembly, multi-thread optimization, memory reuse, heterogeneous computing, etc.
+First of all, you need to configure the MNN environment, which can refer to [MNN Instruction](https://www.yuque.com/mnn/cn/build_android).
 
-## How to Discuss and Get Help From MNN Community
+Then go to the folder of our suite:
 
-Scan the following QR codes to join Dingtalk discussion group. The group discussions are predominantly Chinese. But we welcome and will help English speakers.
+```
+cd /path/to/root/tools/train/benchmark
+```
 
-Group #1 (Full):
+Whether your device is root or not, you need to push the related dataset to your device before testing. And put the downloaded datasets in the same directory (Dataset can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1IB1-NJgzHSEb7ucgJzM2Gj8QzxpYAjGy?usp=sharing)).
 
-<img src="doc/DingTalkQR1.png" height="256"/>
+```
+./data_prepare.sh /path/to/data/root
+```
 
-Group #2 (Full):
+Next, choose the instructions you need to follow according to the different permissions of your device.
+### root
+Root device can measure the latency of the model, the influence of different CPU configuration, and the relationship between frequency and temperature.
 
-<img src="doc/DingTalkQR2.png" height="256"/>
+1. Latency
+```
+./bench_root.sh ModelName Core Push_model(0/1)
+```
+2. CPU configuration
+```
+# numbers of CPU
+# Core should be presented in hexadecimal form, .e.g, ff.
+./get_data_root.sh numCore Core Device 
 
-Group #3:
+# frequency of CPU
+./get_data_root_freq.sh Device
+```
+[get_data_root_freq.sh](./get_data_root_freq.sh) will measure all available frequencies in default. 
 
-<img src="doc/DingTalkQR3.png" height="256"/>
+Device_Core_${Core} / Device_Freq_${Freq} will be generated in the current directory.
 
-## License
-Apache 2.0
 
-## Acknowledgement
-MNN participants: Taobao Technology Department, Search Engineering Team, DAMO Team, Youku and other Alibaba Group employees.
+3. Freq-Temperature
+```
+adb push ./frequency_monitor.sh /data/local/tmp
+adb shell
+cd /data/local/tmp
+chmod 0777 /data/local/tmp/frequency_monitor.sh
+/data/local/tmp/frequency_monitor.sh freq_temperature.result 1
 
-MNN refers to the following projects:
-- [Caffe](https://github.com/BVLC/caffe)
-- [flatbuffer](https://github.com/google/flatbuffers)
-- [gemmlowp](https://github.com/google/gemmlowp)
-- [Google Vulkan demo](http://www.github.com/googlesamples/android-vulkan-tutorials)
-- [Halide](https://github.com/halide/Halide)
-- [Mace](https://github.com/XiaoMi/mace)
-- [ONNX](https://github.com/onnx/onnx)
-- [protobuffer](https://github.com/protocolbuffers/protobuf)
-- [skia](https://github.com/google/skia)
-- [Tensorflow](https://github.com/tensorflow/tensorflow)
-- [ncnn](https://github.com/Tencent/ncnn)
-- [paddle-mobile](https://github.com/PaddlePaddle/paddle-mobile)
-- [stb](https://github.com/nothings/stb)
-- [rapidjson](https://github.com/Tencent/rapidjson)
-- [pybind11](https://github.com/pybind/pybind11)
-- [pytorch](https://github.com/pytorch/pytorch)
-- [bolt](https://github.com/huawei-noah/bolt)
-- [libyuv](https://chromium.googlesource.com/libyuv/libyuv)
+# When you think your device is hot enough for frequency down to occur, use ctrl-c in the adb shell, and then run the following code:
+
+python temperature.py
+```
+batchsize_energy_Device、singleBatch_energy_Device、singleSample_energy_Device willbe generated in the current directory
+
+***TIPS: When you interrupt the measurement ahead of time or the measurement fails, you need to run [clean.sh](./clean.sh) to clear the garbage cache of the last measurement.**
+
+### unroot
+```
+adb push usage_monitor_unroot.sh /data/local/tmp
+adb shell 
+cd data/local/tmp
+chmod 0777 usage_monitor_unroot.sh
+./usage_monitor_unroot.sh usage_monitor.result 1
+
+# Open a new terminal
+
+./get_data_unroot.sh Device
+```
+
+## Example
+> Device: Meizu 16T (root); numCore: 4 (**f0** i.e. **11110000** i.e. **cpu4、5、6、7**); Frequency: 1.7GHz
+```markdown
+./data_prepare.sh ~/Desktop/data
+
+./get_data_root.sh 4 f0 MEIZU
+# Generate MEIZU_Core_f0/
+
+./get_data_root_freq.sh MEIZU
+# Cut down when finish measuring freq 1.7GHz, so only generate MEIZU_Freq_1708800/
+
+adb push ./frequency_monitor.sh /data/local/tmp
+adb shell
+cd /data/local/tmp
+chmod 0777 /data/local/tmp/frequency_monitor.sh
+/data/local/tmp/frequency_monitor.sh freq_temperature.result 1
+
+# Run for a while, and open a new terminal to run below
+python temperature.py
+# Generate batchsize_energy_MEIZU_Freq_1708800.csv singleBatch_energy_MEIZU_Freq_1708800.csv singleSample_energy_MEIZU_Freq_1708800.csv
+```
+
+>Device: Xiaomi MI 9 (unroot)
+
+```markdown
+adb push usage_monitor_unroot.sh /data/local/tmp
+adb shell 
+cd data/local/tmp
+chmod 0777 usage_monitor_unroot.sh
+./usage_monitor_unroot.sh usage_monitor.result 1
+
+# Open a new terminal
+./get_data_unroot.sh Device
+# Generate XIAOMI/
+# Turn back to the old terminal and ctrl-c to stop usage_monitor
+```
+## Roadmap
+In the future, we will add more models for wider measurement. More devices will be measured to find those system parameters influencing on-device training performance and help related scholars choose optimal configuration.
+
+Besides, while being the state-of-the-art training library for edge devices, our experiments show that MNN’s performance is still far from
+optima. So we will focus on generating more efficient operators and doing memory optimizations as well.
+
+## Related work
+[MNN](https://github.com/alibaba/MNN)
+
+## Contributor
+[@caidongqi](https://github.com/caidongqi)
+[@xumengwei](https://github.com/xumengwei)
+[@wangqipeng](https://github.com/qipengwang)
+[@liuyuanqiang](https://github.com/qingyunqu)
