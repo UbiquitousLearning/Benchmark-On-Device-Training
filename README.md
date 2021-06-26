@@ -48,9 +48,9 @@ Our suite can help you test the training/inference latency with different models
 ### CPU Configuration
 _Because unroot devices have no root for changing cpu configuration, so those function are only available for root devices_
 
-With different parameters for [get_data_root.sh](./get_data_root.sh), you can change numbers of CPU cores used for training or even specify which core you want to use.
+With different parameters for [get_data_root.sh](./tools/train/benchmark/get_data_root.sh), you can change numbers of CPU cores used for training or even specify which core you want to use.
 
-Besides from numbers of CPU, frequency is a important factor affecting training performance as well. So we developed [get_data_root_freq.sh](./get_data_root_freq.sh) to help you quickly test the difference of training performance under different frequencies.
+Besides from numbers of CPU, frequency is a important factor affecting training performance as well. So we developed [get_data_root_freq.sh](./tools/train/benchmark/get_data_root_freq.sh) to help you quickly test the difference of training performance under different frequencies.
 ### Thermal Dynamics
 To reach a usable accuracy, the training phase often takes a substantial period of time which may lead to thermal issues and therefore the CPU frequency. So we provide the [freq_temperature monitor](./freq_temperature.sh) for you to know your training device better.
 
