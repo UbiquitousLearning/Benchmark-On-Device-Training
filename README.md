@@ -43,7 +43,7 @@ and GoogLeNet (22 convs, 6.8M parameters).
 We add essential operations for GPU training using OPENCL and enable preliminary measurement, which means the latency and memory you get are only suggested for reference.
 
 ### Latency Test
-Our suite can help you test the training/inference latency with different models in a simple way, just need to run [get_data_root.sh](./get_data_root.sh)/[get_data_unroot.sh](./get_data_unroot.sh) refer to [instructions](#step-by-step-instructions).
+Our suite can help you test the training/inference latency with different models in a simple way, just need to run [get_data_root.sh](./tools/train/benchmark/get_data_root.sh)/[get_data_unroot.sh](./tools/train/benchmark/get_data_unroot.sh) refer to [instructions](#step-by-step-instructions).
 
 ### CPU Configuration
 _Because unroot devices have no root for changing cpu configuration, so those function are only available for root devices_
