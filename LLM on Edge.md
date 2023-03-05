@@ -1,4 +1,4 @@
-# LLM on Edge
+# LLM-on-the-Edge
 #科研/科研方向/Large-language-model
 
 ## 基础知识
@@ -16,3 +16,4 @@
 3. ChatGPT: [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756)
 4. Transformer code: [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 5. 主流的Tranformer community： [🤗 Transformers](https://huggingface.co/docs/transformers/index) 
+
