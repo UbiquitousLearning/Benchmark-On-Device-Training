@@ -34,7 +34,7 @@ can bench CPU/GPU training performance metrics including training latency, energ
 ## Suite Composition
 
 ### NN models
-Besides from the two NN models that MNN has supported, we add three more models (implemented in [models](../source/models)). Five classical CNN models are tested in our experiments:  LeNet (2 convs, 3.2K parameters), AlexNet (5
+Besides from the two NN models that MNN has supported, we add three more models (implemented in [models](tools/train/source/models)). Five classical CNN models are tested in our experiments:  LeNet (2 convs, 3.2K parameters), AlexNet (5
 convs, 61M parameters), MobileNetv2 (53 convs, 3.4M
 parameters), SqueezeNet (18 convs, 411.2K parameters),
 and GoogLeNet (22 convs, 6.8M parameters).
@@ -52,7 +52,7 @@ With different parameters for [get_data_root.sh](./tools/train/benchmark/get_dat
 
 Besides from numbers of CPU, frequency is a important factor affecting training performance as well. So we developed [get_data_root_freq.sh](./tools/train/benchmark/get_data_root_freq.sh) to help you quickly test the difference of training performance under different frequencies.
 ### Thermal Dynamics
-To reach a usable accuracy, the training phase often takes a substantial period of time which may lead to thermal issues and therefore the CPU frequency. So we provide the [freq_temperature monitor](./freq_temperature.sh) for you to know your training device better.
+To reach a usable accuracy, the training phase often takes a substantial period of time which may lead to thermal issues and therefore the CPU frequency. So we provide the [freq_temperature monitor](tools/train/benchmark/freq_temperature.sh) and [energy (current, voltage) monitor](tools/train/benchmark/usage_monitor.sh) for you to know your training device better.
 
 ## Step-by-step Instructions
 
@@ -87,7 +87,7 @@ Root device can measure the latency of the model, the influence of different CPU
 # frequency of CPU
 ./get_data_root_freq.sh Device
 ```
-[get_data_root_freq.sh](./get_data_root_freq.sh) will measure all available frequencies in default. 
+[get_data_root_freq.sh](./tools/train/benchmark/get_data_root_freq.sh) will measure all available frequencies in default. 
 
 Device_Core_${Core} / Device_Freq_${Freq} will be generated in the current directory.
 
@@ -106,7 +106,7 @@ python temperature.py
 ```
 batchsize_energy_Device、singleBatch_energy_Device、singleSample_energy_Device willbe generated in the current directory
 
-***TIPS: When you interrupt the measurement ahead of time or the measurement fails, you need to run [clean.sh](./clean.sh) to clear the garbage cache of the last measurement.**
+***TIPS: When you interrupt the measurement ahead of time or the measurement fails, you need to run [clean.sh](./tools/train/benchmark/clean.sh) to clear the garbage cache of the last measurement.**
 
 ### unroot
 ```
